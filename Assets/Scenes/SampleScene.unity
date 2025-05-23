@@ -188,7 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6257ae223b7767429a29ed83caa721f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
 --- !u!212 &285365333
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -675,7 +674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6257ae223b7767429a29ed83caa721f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
 --- !u!212 &863471795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -809,7 +807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6257ae223b7767429a29ed83caa721f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
 --- !u!212 &878770748
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -956,7 +953,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1
+  m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -1294,7 +1291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6257ae223b7767429a29ed83caa721f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
 --- !u!58 &1451326853
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1396,7 +1392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6257ae223b7767429a29ed83caa721f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
 --- !u!212 &1967964492
 SpriteRenderer:
   m_ObjectHideFlags: 0

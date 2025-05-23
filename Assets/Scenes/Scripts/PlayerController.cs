@@ -20,8 +20,14 @@ public class PlayerController : MonoBehaviour
         float v = Input.GetAxis("Vertical");
         if (h != 0 || v != 0)
         {
-            Vector2 force = new Vector2 (h, v).normalized * speed;
-            _rb.AddForce(force);
+            //Vector2 force = new Vector2 (h, v).normalized * speed;
+            //_rb.AddForce(force);
+            Vector2 dir = new Vector2(h, v).normalized;
+            if (dir != Vector2.zero)
+            {
+                Vector2 playerPosition = _rb.position + dir * (speed * Time.fixedDeltaTime);
+                _rb.position = playerPosition;
+            }
         }
 
     }
